@@ -53,9 +53,11 @@ or chinese people who live foreign country want to watch video which only publis
     
 ## 2、架设自己的VPN服务器
     这里假设你有基本的ssh登录scp和rz上传文件知识。
-  ######  （1）、租用云服务器，可以从DigitalOcean或者linode租用服务器,相对便宜。
     
-  ###### （2）、下载Server/UdpProxyServer.tgz， 上传到云服务器任意目录,
+###### （1）、租用云服务器，可以从DigitalOcean或者linode租用服务器,相对便宜。操作系统选择 ubuntu 16.04或者16.10更高版本。
+  
+  
+###### （2）、下载Server/UdpProxyServer.tgz， 上传到云服务器任意目录,
     
        运行命令(注意都用root权限)解压:
        tar xvvf UdpProxyServer.tgz
@@ -63,7 +65,7 @@ or chinese people who live foreign country want to watch video which only publis
        启动:
        cd UdpProxyServer && ./start.sh
        
-  ###### （3）、安装安卓客户端，启动后，输入自己的IP,点击连接，开始享受翻墙之旅吧！！
+###### （3）、安装安卓客户端，启动后，输入自己的IP,点击连接，开始享受翻墙之旅吧！！
     
     
   # 联系我
